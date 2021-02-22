@@ -1,24 +1,37 @@
 package com.example.demo1.config;
 
 import ch.qos.logback.classic.db.DBHelper;
+import com.example.demo1.bean.Car;
 import com.example.demo1.bean.Pet;
 import com.example.demo1.bean.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@Import(DBHelper.class)//使用import导入组件
-@Configuration//注释这是个配置类
+@Import({User.class,DBHelper.class})//使用import导入组件
+@Configuration(proxyBeanMethods = false)//注释这是个配置类
+//@ConditionalOnBean(name="user")//有这个组件才注册下面所有的组件
+@ImportResource("classpath:beans.xml")//用来导入xml中的组件
 public class MyConfig {
 
-    @Bean
-    public Pet pet1(){
-        return new Pet("mao");
-    }
+
 
     @Bean("user")
     public User user1(){
         return new User("aost",18);
+    }
+
+
+    @Bean("pet")
+    public Pet pet1(){
+        Pet pet=new Pet("mao");
+        pet.setUser(user1());
+        System.out.println(pet.getUser());
+        return pet;
     }
 
 }
