@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15afac2-330c-41a9-b1b9-ca91850534ce" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Date/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Date/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Demo2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/controller/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/src/main/java/com/aost/demo3/Demo3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/src/test/java/com/aost/demo3/Demo3ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/controlle/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/controlle/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +48,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1on4gxhPa9q2mFcOTZWhWuMccYd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +63,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +77,10 @@
       <workItem from="1613909138277" duration="290000" />
       <workItem from="1613990519598" duration="103000" />
       <workItem from="1613990690476" duration="37000" />
+      <workItem from="1614010416287" duration="11000" />
+      <workItem from="1614067280817" duration="6000" />
+      <workItem from="1614068370686" duration="96000" />
+      <workItem from="1614077445400" duration="61000" />
     </task>
     <servers />
   </component>
@@ -67,9 +100,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="92" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613909404888" />
-    <state x="188" y="0" key="new project wizard" timestamp="1613909425249">
+    <state x="153" y="0" key="SettingsEditor" timestamp="1614077502195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="188" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1613909425249" />
+    <state x="153" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614077502195" />
+    <state x="188" y="0" key="new project wizard" timestamp="1614068461977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="188" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614068461977" />
   </component>
 </project>

@@ -1,0 +1,26 @@
+person:
+  boss: true
+  birth: 2020/11/07
+  age: 18
+  pet: {name: car,id: 1}
+  interests: [qw,wq]
+  animal: [阿猫,阿狗]
+  score: {name: q,age: 21}
+  salarys:
+    - 999.99
+    - 999.22
+  allPets:
+    sick:
+      - { name: 阿狗,weight: 99.99 }
+      - name: 阿猫
+        weight: 88.88
+      - name: 阿虫
+        weight: 77.77
+    health:
+      - { name: 阿花,weight: 199.99 }
+      - { name: 阿明,weight: 199.99 }
+  user-name: aost
+
+
+server:
+  port: 8881
