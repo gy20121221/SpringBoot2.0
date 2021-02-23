@@ -1,0 +1,18 @@
+spring:
+  mvc:
+#    #    设置静态资源目录访问时要加的前缀
+#    static-path-pattern: /img/**
+    hiddenmethod:
+      filter:
+#        开启post请求处理delete和put请求
+        enabled: true
+#  web:
+#    resources:
+##      static-locations: 设置静态资源地址
+##        设置静态资源能不能被访问
+#      add-mappings: true
+#      cache:
+##        设置静态资源访问存在时间，s
+#        period: 1000
+server:
+  port: 8803

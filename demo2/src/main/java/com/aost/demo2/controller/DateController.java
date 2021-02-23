@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
 @RestController
 public class DateController {
 
@@ -17,6 +16,12 @@ public class DateController {
         public Person person(){
             return person;
         }
+
+
+//        @RequestMapping("/")
+//        public String toIndex(){
+//                return "index";
+//        }
 
 
 }
