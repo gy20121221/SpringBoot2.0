@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a15afac2-330c-41a9-b1b9-ca91850534ce" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/favicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Date/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Date/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/Demo2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/aost/demo2/controller/DateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/src/main/java/com/aost/demo3/Demo3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3/src/test/java/com/aost/demo3/Demo3ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/controlle/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/controlle/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="a15afac2-330c-41a9-b1b9-ca91850534ce" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +54,7 @@
       <workItem from="1614067280817" duration="6000" />
       <workItem from="1614068370686" duration="96000" />
       <workItem from="1614077445400" duration="61000" />
+      <workItem from="1615204464904" duration="36000" />
     </task>
     <servers />
   </component>

@@ -17,6 +17,7 @@ public class RequestController {
     public String toSe(HttpServletRequest request){
         request.setAttribute("msg","转发成功");
         request.setAttribute("id",18);
+        request.setAttribute("name","ao");
 
         return "forward:/s";
     }
@@ -28,9 +29,11 @@ public class RequestController {
                  HttpServletRequest request ){
         HashMap<String,Object> map=new HashMap<>();
         Object msg1 = request.getAttribute("msg");
+        Object msg2 = request.getAttribute("name");
         map.put("msg",msg);
         map.put("id",id);
         map.put("msg1",msg1);
+        map.put("msg2",msg2);
         return map;
     }
 }
