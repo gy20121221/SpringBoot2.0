@@ -14,7 +14,6 @@ public class SetDate {
 //    @RequestMapping(value = "/user",method = RequestMethod.GET)
     @GetMapping("/user")
     public String getUser(){
-
         return "GET-张三";
     }
 

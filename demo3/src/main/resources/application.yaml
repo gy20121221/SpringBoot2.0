@@ -14,5 +14,16 @@ spring:
 #      cache:
 ##        设置静态资源访问存在时间，s
 #        period: 1000
+
+#配置数据库
+  datasource:
+    url: jdbc:mysql://localhost:3306/text?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: abcd
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#配置mapper.xml文件路径
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+
 server:
-  port: 8803
+  port: 8833
