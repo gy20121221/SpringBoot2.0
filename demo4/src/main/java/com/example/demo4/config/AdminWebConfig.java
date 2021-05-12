@@ -1,7 +1,5 @@
 package com.example.demo4.config;
 
-
-
 import com.example.demo4.interceptor.LoginInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -27,7 +25,7 @@ public class AdminWebConfig implements WebMvcConfigurer{
      *
      */
 //    @Autowired
-//    RedisUrlCountInterceptor redisUrlCountInterceptor;
+   // RedisUrlCountInterceptor redisUrlCountInterceptor;
 
     /**
      * 定义静态资源行为
@@ -65,5 +63,4 @@ public class AdminWebConfig implements WebMvcConfigurer{
 //        };
 //    }
 
-    //
 }
